@@ -1,0 +1,64 @@
+{
+  box-sizing-box;
+  }
+  body {
+     margin:0;
+     background: white;
+  }
+  nav {
+     background: #FF4500;
+     width: 100%;
+     overflow: auto;
+  }
+  ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+  li {
+      float: left;
+  }
+  nav a {
+      width:120px;
+      display: block;
+      text-decoration: underline;
+      text-align: center;
+      background: black;
+      font-size: 17px;
+      color: #FF4500;
+      padding: 20px 10px;
+      font-family: Arial;
+      
+  }
+  nav a:hover {
+  
+  }
+  h1 {
+    text-shadow: 0 0 3px #FF4500;;
+    text-align: center;
+    font-size: 45px;
+  }
+  .button {
+    background-color: #FF4500;
+    border: black;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    background-image: ("https://mpng.subpng.com/20180214/deq/kisspng-basketball-court-basketball-court-5a84cbe8cdbf14.4906092115186523928427.jpg");
+  }
+  footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
