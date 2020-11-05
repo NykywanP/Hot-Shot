@@ -34,31 +34,26 @@
   
   }
   h1 {
-    text-shadow: 0 0 3px #FF4500;;
+    text-shadow: 0 0 6px #FF4500;;
     text-align: center;
-    font-size: 45px;
+    font-size: 80px;
   }
-  .button {
-    background-color: #FF4500;
-    border: black;
-    color: black;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-  canvas {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 500px;
-    background-image: ("https://mpng.subpng.com/20180214/deq/kisspng-basketball-court-basketball-court-5a84cbe8cdbf14.4906092115186523928427.jpg");
+  .btn-group button:hover {
+    background-color: red;
   }
   footer {
-  background-color: black;
   text-align: center;
-  color: white;
+  color: black;
 }
+.btn-group button {
+  background-color: #FF4500;
+  border: 3px solid white; 
+  color: black; 
+  padding: 20px 40px; 
+  cursor: pointer; 
+  float: left;
+  font-size: 22px;
+  border-top-style: inherit;
+};
+  
 

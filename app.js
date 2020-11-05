@@ -1,11 +1,40 @@
-var canvas = document.getElementById('viewport'),
-context = canvas.getContext('2d')
-
-make_base();
-
-function make_base()
-{
-  base_image = new Image();
-  base_image.src = 'https://mpng.subpng.com/20180214/deq/kisspng-basketball-court-basketball-court-5a84cbe8cdbf14.4906092115186523928427.jpg';
-  context.drawImage(base_image, 100, 100);
+function draw() {
+  var drawing = document.getElementById("drawing");
+  var con = drawing.getContext("2d");
+  var picCan = document.getElementById("myCanvas");
+  con.drawImage(picCan, 0, 0, 40, 40);
+  var image2 = new Image();
+  image2.src = "basketB";
+  con.drawImage(image2, 20, 20, 40, 30);
 }
+console.log(draw)
+// Bring the picture into the canvas
+
+//function myCa() { 
+  ///let myCa = canvas.getContext("2d");
+ //var canvas = document.getElementById("myCanvas");
+  //var ctx = canvas.getContext("2d");
+  //var x = canvas.width/2;
+ //var y = canvas.height-30;
+  //var dx = 2;
+ //var dy = -2;
+ // }
+ // function drawBall() {
+  //    ctx.beginPath();
+ //     ctx.arc(x, y, 10, 0, Math.PI*2);
+  //    ctx.fillStyle = "#0095DD";
+  //    ctx.fill();
+  //    ctx.closePath();
+ // }
+  //console.log(drawBall)
+ 
+  //const ctx = draw;
+  //function drawTwo() {
+   //   ctx.clearRect(0, 0, canvas.width, canvas.height);
+   //   drawBall();
+    //  x += dx;
+     // y += dy;
+  //}
+  
+  ///setInterval(draw, 10);
+
