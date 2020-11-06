@@ -8,6 +8,8 @@ function draw() {
   con.drawImage(image2, 20, 20, 40, 30);
 }
 console.log(draw)
+canvasNode.width  = 100; // in pixels
+canvasNode.height = 80; // in pixels
 // Bring the picture into the canvas
 
 //function myCa() { 

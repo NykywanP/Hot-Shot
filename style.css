@@ -6,7 +6,7 @@
      background: white;
   }
   nav {
-     background: #FF4500;
+     background: red;
      width: 100%;
      overflow: auto;
   }
@@ -25,7 +25,7 @@
       text-align: center;
       background: black;
       font-size: 17px;
-      color: #FF4500;
+      color: red;
       padding: 20px 10px;
       font-family: Arial;
       
@@ -34,26 +34,34 @@
   
   }
   h1 {
-    text-shadow: 0 0 6px #FF4500;;
+    text-shadow: 0 0 6px red;
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
   }
   .btn-group button:hover {
-    background-color: red;
+    background-color: black;
   }
   footer {
   text-align: center;
   color: black;
 }
 .btn-group button {
-  background-color: #FF4500;
+  background-color: red;
   border: 3px solid white; 
-  color: black; 
+  color: white; 
   padding: 20px 40px; 
   cursor: pointer; 
   float: left;
   font-size: 22px;
   border-top-style: inherit;
-};
+}
+body {
+  background-image: url("https://media4.giphy.com/media/xT1XGXiopro3wbkBri/200.gif");
+  border-style: hidden;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+ }
+
   
 
