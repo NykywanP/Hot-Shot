@@ -62,15 +62,6 @@ canvas.addEventListener('mouseout', function(e) {
   running = false;
 });
 
-  // let cx = document.querySelector("canvas").getContext("2d");
-  // let img = document.createElement("img");
-  // img.src = "https://banner2.cleanpng.com/20180320/qyw/kisspng-backboard-ncaa-men-s-division-i-basketball-tournam-basketball-hoop-png-transparent-5ab1b00c2d0b99.9652717415215943801845.jpg";
-  // img.addEventListener("load", () => {
-  //   for (let x = 10; x < 200; x += 30) {
-  //     cx.drawImage(img, x, 10);
-  //   }
-  // });
-
   function drawGoal() {
    let cx = document.querySelector("canvas").getContext("2d");
    let img = document.createElement("img");
