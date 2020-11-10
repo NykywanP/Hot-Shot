@@ -15,14 +15,32 @@
         <marquee><h1>'Hot Shot Game' 🏀 🏀🏀   🏀🏀  LETS GET IT!! 🏀 🏀 🏀🏀 THE AMERICAN ALLSTARS 🏀 🏀🏀 🏀 'Shoot & Score' 🏀 🏀🏀 🏀🏀 All we do is WIN! WIN! WIN! 🏀🏀🏀</h1></marquee>
   </p>
 
-<canvas id="canvas" width="900" height="600"></canvas>
+<canvas id="canvas" width="1200" height="500"></canvas>
+<div class="scoresOne" id="notes">
+    <!-- <p id='score'></p> -->
+  <h2> score:<span id="score">0</span> 
+    <button id="resetButton">reset</button>
+  </div> </h2>
+<h4>How many Shots can you make in 2:00 minutes</h4>
+<blink><h5>Move the mouse 🐭 to shoot the ball in the goal</h5></blink>
 <p>
 <audio controls autoplay>
-    <source src="file:///Users/nykywan.parker/Desktop/Lil%20Troy%20I%20wanna%20be%20a%20baller.mp3" type="audio/mpeg">
+    <source src="file:///Users/nykywan.parker/Desktop/SEI-1019/Unit_1/delieverable/Hot-Shot/Lil-Troy-I-wanna-be-a%20baller.mp3" type="audio/mpeg">
   </audio>
 </p>
-        </body>
+<section class="section">
+    <h1 id="display">2:00</h1>
+    <div class="buttons">
+      <button onclick="start()">Start Clock</button>
+      <button onclick="stop()">Stop Clock</button>
+      <button onclick="cancel()">Clock Reset</button>
+    </div>
+  </section>
+  
+</div>
+<p>
    <script src="app.js"></script>
+   </p>
     </body>
 
     <footer><a href="https://play.google.com/store/search?q=basketball%20games&c=apps&hl=en_US">Download the lastest basketball GAMES in the Google App Store</a>

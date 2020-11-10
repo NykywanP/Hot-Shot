@@ -2,8 +2,10 @@
   box-sizing-box;
   }
   body {
-     margin:0;
-     background: white;
+    background-image: url("https://thumbs.gfycat.com/OrdinaryHeartfeltAnchovy-small.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
   }
   nav {
      background: red;
@@ -58,6 +60,36 @@
 * { padding: 0; margin: 0; }
     	canvas { background: white; display: block; margin: 0 auto; 
 }
-body {
-  background-color: grey;
+h4 {
+  text-align: center;
+  color: black;
+  text-shadow: 0 0 1px red;
+}
+h5 {
+  text-align: center;
+  color: black;
+}
+button {
+  background-color: red;
+  border: 1px transparent;
+  -webkit-border-radius: 40px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 12px 35px;
+  text-decoration: none;
+  margin-left: 30px;
+  text-transform: uppercase;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+}
+blink {
+  color: #1c87c9;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
