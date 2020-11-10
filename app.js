@@ -127,13 +127,13 @@ resetButton.onclick= reloadPage;
 
 function reloadPage(){
    window.location.reload();
-};
-
-
-
-function scoreCount(){
-  var score = document.getElementById('score')
-  // score++;
-console.log(score)
 }
-scoreCount()
+
+function scoreCount(ball){
+  var score = document.getElementById('score')
+  if (655 > ball.x && ball.x > 640) {
+    score.textContent = Number(score.textContent) + 1;
+  }
+  console.log(score);
+}
+
