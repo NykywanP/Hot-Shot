@@ -47,7 +47,7 @@ canvas.addEventListener('mousemove', function(e) {
     ball.draw();
     drawGoal();
   }
-  console.log(ball)
+  scoreCount(ball);
 });
 
 canvas.addEventListener('click', function(e) {
@@ -72,18 +72,18 @@ canvas.addEventListener('mouseout', function(e) {
   // });
 
   function drawGoal() {
-     let cx = document.querySelector("canvas").getContext("2d");
-     let img = document.createElement("img");
-     img.src = "https://banner2.cleanpng.com/20180320/qyw/kisspng-backboard-ncaa-men-s-division-i-basketball-tournam-basketball-hoop-png-transparent-5ab1b00c2d0b99.9652717415215943801845.jpg";
-     img.addEventListener("load", () => {
-       for (let x = 10; x < 200; x += 30) {
-         cx.drawImage(img, x, 10);
-       }
-  });
+   let cx = document.querySelector("canvas").getContext("2d");
+   let img = document.createElement("img");
+   img.src = "https://banner2.cleanpng.com/20180320/qyw/kisspng-backboard-ncaa-men-s-division-i-basketball-tournam-basketball-hoop-png-transparent-5ab1b00c2d0b99.9652717415215943801845.jpg";
+   img.addEventListener("load", () => {
+     for (let x = 10; x < 200; x += 30) {
+       cx.drawImage(img, x, 10);
+     }
+    });
    }
   
 
-   var timer;
+var timer;
 var minute = 2
 var seconds = minute * 60
 var textSec = "00"
@@ -116,13 +116,11 @@ function stop(){
 }
 
 function cancel(){
-    console.log("asdasd");
     clearInterval(timer)
     display.innerHTML = minute + ':00'
     seconds = minute * 60
 }
 var resetButton = document.getElementById('resetButton');
-console.log(resetButton)
 resetButton.onclick= reloadPage;
 
 function reloadPage(){
@@ -134,6 +132,5 @@ function scoreCount(ball){
   if (655 > ball.x && ball.x > 640) {
     score.textContent = Number(score.textContent) + 1;
   }
-  console.log(score);
 }
 
