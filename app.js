@@ -122,6 +122,18 @@ function scoreCount(ball){
   var score = document.getElementById('score')
   if (655 > ball.x && ball.x > 640) {
     score.textContent = Number(score.textContent) + 1;
+    gameOver(Number(score.textContent)) 
   }
-}
+  
+  function gameOver(score) {
+        if (score >=10) {
+          document.getElementById("gameWins").innerHTML = "GOOD GAME. YOU WIN!";
+        
+        }
+      }
+  
+  
+    }
+
+
 
