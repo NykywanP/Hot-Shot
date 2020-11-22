@@ -8,7 +8,7 @@ America's favorite basketball league! 🏀
   
 # Project Motivations-Goals 
 
-        This game was created as my first project at General Assembly. I picked a basket ball game because it seemed to be a good project to create. My biggest challage of this game was to interact with in the html canvas. My goal is to have a fun interactive game that can be played by anyone. 
+        This game was created as my first project at General Assembly. I picked a basketball game because it seemed to be a good project to create. My biggest challage of this game was to interact with in the html canvas. My goal is to have a fun interactive game that can be played by anyone. 
 
 # Link to the actuarial site
 
